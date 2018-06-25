@@ -1,0 +1,138 @@
+/* *, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body{
+font-family: "roboto", sans-serif;
+background-color: #F6F6F6;
+font-size: 14px;
+width: 360px;
+margin: 0 auto;
+}
+
+.appbar {
+  background-color: #00BBD3;
+}
+
+nav {
+
+}
+
+.status-bar {
+  float: right;
+  padding: 5px;
+}
+p {
+  padding: 7px 5px;
+  color: #fff;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.bus-list {
+  background-color: #F6F6F6;
+}
+
+ul {
+  list-style-type: none;
+} */
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "roboto", sans-serif;
+  font-size: 14px;
+  width: 360px;
+  height: 640px;
+  margin: 0 auto;
+}
+
+.status-bar {
+  height: 24px;
+  width: 360px;
+  padding: 5px;
+  background-color: rgba(117, 117, 117, 0.6);
+}
+
+p, img {
+  color: #fff;
+  float: right;
+}
+
+.topimg {
+  padding: 0px 4px 4px;
+}
+
+.app-bar{
+  background-color: #00BBD3;
+  height: 80px;
+
+}
+
+.menu {
+  float: left;
+  padding: 20px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 20px;
+  color: #fff;
+}
+
+.material-icons {
+  color: #fff;
+}
+
+#arrow {
+  padding-left: 16px;
+}
+
+#hamburger-menu {
+  padding-left: 36px;
+}
+
+.bus-list {
+  background-color: #F6F6F6;
+}
+
+.header {
+  /*padding: 0px 20px 5px;*/
+  border-bottom: 0.75px solid #5F5F5F;
+  height: 40px;
+  font-weight: bold;
+}
+
+.route {
+  padding: 10px;
+  height: 70px;
+  border-bottom: 0.75px solid #5F5F5F;
+}
+
+li {
+  float: left;
+  padding: 10px;
+}
+
+.navbar {
+  background-color: #000;
+  height: 48px;
+}
+
+.buttons {
+  float: left;
+  padding: 15px 50px;
+}
+
+
+
+/*.arrow {
+float: right;
+padding: 10px;
+padding-top: 15px;
+}*/
