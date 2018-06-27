@@ -7,12 +7,13 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
   </head>
   <body>
    <div class="back">
     <section class="app-bar">
       <div class="status-bar">
-        <p>12:30</p>
+        <p class="clock">12:30</p>
         <img class = "topimg" src ="images/baseline_battery_80_white_18dp.png">
         <img class = "topimg" src ="images/baseline_signal_cellular_3_bar_white_18dp.png">
         <img class = "topimg" src ="images/baseline_network_wifi_white_18dp.png">
@@ -29,46 +30,76 @@
      <div class="header">
       <ul>
        <li class="toproute">
-        <div class="line">Line</div>
-        <div class="direction">Direction</div>
-        <div class="frequency">Frequency</div>
-        <div class="destination">Destination</div>
+         <ul>
+           <li class="line">Line</li>
+           <li class="destination">Destination</li>
+           <li class="frequency">Arrival</li>
+         </ul>
       </div>
        </li> <!-- route -->
 
       <li class="route">
-        <div class="line">60</div>
-        <div class="direction">Eastbound</div>
-        <div class="frequency">20 mins</div>
-        <div class="destination">Randolph/Harbor Dr</div>
+        <ul>
+         <li class="line">60</li>
+         <li class="destination"><p>Randolph/Harbor Dr</p><p class="direction">Eastbound</p></li>
+         <li class="frequency"><p>Arrives at 12:30pm</p><p class="direction">Every 20 mins</p></li>
+        </ul>
       </li> <!-- route -->
 
       <li class="route">
-        <div class="line">124</div>
-        <div class="direction">Eastbound</div>
-        <div class="frequency">10 mins</div>
-        <div class="destination">Navy Pier</div>
+       <ul>
+        <li class="line">124</li>
+        <li class="destination"><p>Navy Pier</p><p class="direction">Eastbound</p></li>
+        <li class="frequency"><p>Arrives at 12:45pm</p><p class="direction">Every 10 mins</p></li>
+       </ul>
       </li> <!-- route -->
 
       <li class="route">
-        <div class="line">151</div>
-        <div class="direction">Northbound</div>
-        <div class="frequency">16 mins</div>
-        <div class="destination">Devon/Clark</div>
+       <ul>
+        <li class="line">151</li>
+        <li class="destination"><p>Devon/Clark</p><p class="direction">Northbound</p></li>
+        <li class="frequency"><p>Arrives at 1:00pm</p><p class="direction">Every 16 mins</p></li>
+       </ul>
       </li> <!-- route -->
 
       <li class="route">
-        <div class="line">J14</div>
-        <div class="direction">Southbound</div>
-        <div class="frequency">15 mins</div>
-        <div class="destination">103rd/Stony Island</div>
+        <ul>
+         <li class="line">J14</li>
+         <li class="destination"><p>103rd/Stony Island</p><p class="direction">Southbound</p></li>
+         <li class="frequency"><p>Arrives at 1:15pm</p><p class="direction">Every 15 mins</p></li>
+        </ul>
       </li> <!-- route -->
 
       <li class="route">
-        <div class="line">6X</div>
-        <div class="direction">Reroute</div>
-        <div class="frequency">N/A</div>
-        <div class="destination">Jackson Park Express</div>
+       <ul>
+        <li class="line">6X</li>
+        <li class="destination"><p>Jackson Park Express</p><p class="direction">Reroute</p></li>
+        <li class="frequency">N/A</li>
+       </ul>
+      </li> <!-- route -->
+
+      <li class="route">
+       <ul>
+        <li class="line">4</li>
+        <li class="destination">Cottage Grove</li>
+        <li class="frequency">Resumes 12:10am</li>
+       </ul>
+      </li> <!-- route -->
+
+      <li class="route">
+       <ul>
+        <li class="line">20</li>
+        <li class="destination">Madison</li>
+        <li class="frequency">Resumes 12:10am</li>
+       </ul>
+      </li> <!-- route -->
+
+      <li class="route">
+       <ul>
+        <li class="line">157</li>
+        <li class="destination">Streetervile/Taylor</li>
+        <li class="frequency">Resumes 6:00am</li>
+       </ul>
       </li> <!-- route -->
      </ul>
     </section> <!-- bus list -->
